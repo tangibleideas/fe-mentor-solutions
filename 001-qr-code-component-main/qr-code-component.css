@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit";
+  font-size: 15px;
+}
+
+.qr-code-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr-code-component {
+  width: 40%;
+  max-width: 300px;
+  margin-left: 30%;
+  background-color: hsl(0, 0%, 100%);
+  border: 10px solid hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code-text-title {
+  font-weight: 700;
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.qr-code-text-description {
+  padding: 2% 4%;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+  font-weight: 400;
+}
